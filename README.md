@@ -3,14 +3,14 @@ Este repositório contém três ambientes independentes para execução de banco
 containers Docker, ideais para desenvolvimento e testes locais.
 ## 📁 Estrutura do Repositório
 ```bash
-├── postgresql-adminer/
+├── postgres/
 │ ├── docker-compose.yml
-│ ├── Dockerfile (opcional)
-│ └── init.sql (scripts de inicialização, se houver)
+│ ├── Dockerfile
+│ └── init.sql
 │
 ├── mysql/
 │ ├── docker-compose.yml
-│ ├── init.sql (scripts de inicialização, se houver)
+│ ├── init.sql
 │
 └── mongodb/
 ├── docker-compose.yml
