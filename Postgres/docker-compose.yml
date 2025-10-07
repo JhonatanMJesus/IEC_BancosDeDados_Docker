@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  db:
+    build: .
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: jhonatan123
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    # A dicionamos o arquivo init.sql para a pasta
+    # /docker-entrypoint-initdb.d/init.sql, pois irá rodar o script
+    # Na primeira vez que o container for executado
+    # Já populando o banco de dados com os scripts sql inseridos no arquivo
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Adicionamos a imagem adminer para gerenciar o banco de dados via Web
+  adminer:
+    image: adminer
+    container_name: adminer_ui
+    restart: always
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:
