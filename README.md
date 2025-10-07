@@ -100,7 +100,7 @@ docker compose down -v && docker compose up -d
 ---
 ## 📜 Licença
 Este projeto é de uso livre para fins de estudo e desenvolvimento.
-Sinta-se à vontade para modificar e expandir conforme necessário. n
+Sinta-se à vontade para modificar e expandir conforme necessário. 🚀
 ---
 ### 👨‍💻 Autor
 **Seu Nome Aqui**
