@@ -1,7 +1,7 @@
-# n Ambientes de Banco de Dados com Docker
+# 🐳 Ambientes de Banco de Dados com Docker
 Este repositório contém três ambientes independentes para execução de bancos de dados em
 containers Docker, ideais para desenvolvimento e testes locais.
-## n Estrutura do Repositório
+## 📁 Estrutura do Repositório
 ├── postgresql-adminer/
 │ ├── docker-compose.yml
 │ ├── Dockerfile (opcional)
