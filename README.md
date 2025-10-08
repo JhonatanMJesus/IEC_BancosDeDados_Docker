@@ -5,7 +5,6 @@ containers Docker, ideais para desenvolvimento e testes locais.
 ```bash
 ├── postgres/
 │ ├── docker-compose.yml
-│ ├── Dockerfile
 │ └── init.sql
 │
 ├── mysql/
