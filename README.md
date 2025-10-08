@@ -11,8 +11,8 @@ containers Docker, ideais para desenvolvimento e testes locais.
 │ ├── docker-compose.yml
 │ ├── init.sql
 │
-└── mongodb/
-├── docker-compose.yml
+├── mongodb/
+│ ├── docker-compose.yml
 ```
 
 Cada pasta possui seu próprio `docker-compose.yml`, permitindo que você suba os serviços
