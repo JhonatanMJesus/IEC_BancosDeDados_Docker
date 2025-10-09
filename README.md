@@ -67,7 +67,8 @@ docker compose up -d
 - Host: `localhost`
 - Porta: `27017`
 - Banco padrão: `admin`
-- Usuário/Senha: (se configurado no `docker-compose.yml`)
+- Usuário: `admin`
+- Senha: `admin123`
 Para conectar via **Mongo Express** (caso adicionado):
 - [http://localhost:8081](http://localhost:8081)
 ---
