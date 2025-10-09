@@ -102,5 +102,5 @@ Este projeto é de uso livre para fins de estudo e desenvolvimento.
 Sinta-se à vontade para modificar e expandir conforme necessário. 🚀
 ---
 ### 👨‍💻 Autor
-**Seu Nome Aqui**
+**Jhonatan Marcelino**
 💼 GitHub: [@jhonatanmjesus](https://github.com/jhonatanmjesus)
